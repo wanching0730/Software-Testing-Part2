@@ -1,4 +1,4 @@
-package main.java.edu.utar.my;
+package edu.utar.my;
 
 public class RandomFindLargest {
 	
