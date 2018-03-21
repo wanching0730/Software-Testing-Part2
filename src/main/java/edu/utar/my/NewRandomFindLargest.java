@@ -23,11 +23,13 @@ class ArrayGeneratorClass implements RandomNumberFunctionality {
 public class NewRandomFindLargest {
 	
 	RandomNumberFunctionality rnf;	
-	
+
+	// first constructor for the original array generator
 	public NewRandomFindLargest() {
 		rnf = new NewRandomGeneratorClass();
 	}
-	
+
+	// second constructor for the new created array generator
 	public NewRandomFindLargest(RandomNumberFunctionality rnf) {
 		this.rnf = rnf;
 	}
